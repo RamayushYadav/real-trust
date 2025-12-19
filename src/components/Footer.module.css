@@ -1,0 +1,151 @@
+.footerWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+/* New CTA Section */
+.ctaSection {
+    position: relative;
+    background-image: url('https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+}
+
+.ctaOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.ctaContent {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.ctaText {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    line-height: 1.4;
+}
+
+.ctaButton {
+    display: inline-block;
+    background-color: white;
+    color: #333;
+    padding: 12px 35px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    transition: background 0.3s, color 0.3s;
+}
+
+.ctaButton:hover {
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+/* Blue Bar */
+.blueBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #007bff;
+    padding: 15px 30px;
+    color: white;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.subscribe {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.input {
+    padding: 8px;
+    border: 1px solid white;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border-radius: 4px;
+}
+
+.input::placeholder {
+    color: #eee;
+}
+
+.button {
+    padding: 8px 20px;
+    background: white;
+    color: #007bff;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Updated Footer Bottom */
+.footerBottom {
+    background-color: #1a202c;
+    /* Dark navy/black matching reference */
+    color: white;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.footerLogo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.socialIcons {
+    display: flex;
+    gap: 15px;
+}
+
+.socialIcon {
+    background-color: white;
+    color: #1a202c;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.socialIcon:hover {
+    transform: scale(1.1);
+}
